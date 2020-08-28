@@ -1,0 +1,170 @@
+body{
+    background: #1d4263;
+    margin: 39px;
+}
+.mainCls{
+    float:left;
+}
+.recharts-sector{
+    padding:10px;
+}
+.recharts-wrapper{
+    margin-right:30px;
+    z-index:999;
+}
+
+svg text {
+    font-family: sans-serif;
+}
+#circleChart {
+    width: 130px;
+    display: inline-block;
+    background: blue;
+}
+.label {
+    position: relative;
+    width: 80px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.label .icon {
+    top: -67px;
+    left: 13px;
+    position: absolute;
+    width: 53px;
+    height: 53px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    border-radius: 57px;
+    z-index:999;
+    
+}
+.green{
+    background-color: #008000;
+    background-image: linear-gradient(#90ee90,#008000);
+}
+.red{
+    background-color: #f92f2f;
+    background-image: linear-gradient(#fcb0b0,#f92f2f);
+}
+.orange{
+    background-color: #ffa500;
+    background-image: linear-gradient(#e4c387,#ffa500);
+}
+.white{
+    background-color: #ffffff;
+    background-image: linear-gradient(#ffffff,#ffffff);
+    color:#cccccc;
+}
+.fontColorRed{
+    color:#f92f2f !important;
+}
+.fontColorGreen{
+    color:#008000 !important;
+}
+.fontColorOrange{
+    color:#ffa500 !important;
+}
+.fontColorWhite{
+    color:#ffffff !important;
+}
+.fontColorBlack{
+    color:#000000 !important;
+}
+.label .value {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+}
+.label .name {
+    color: #ffffff;
+    font-size: 12px;
+}
+.name.fontBlack, .value.fontBlack{
+    color:#000000;
+}
+.valueText{
+    position: absolute;
+    top: 13px;
+    left: 18px;
+    text-align: center;
+}
+.valueText:hover{
+   cursor: pointer;
+}
+.pieTitle{
+    text-align: center;
+    color: #ffffff;
+    margin-right: 30px;
+}
+.infoIcon{
+    position: absolute;
+    top: 50px;
+    left: -20px;
+    color: #000;
+    filter: contrast(0) invert(0);
+}
+.infoIcon .MuiSvgIcon-root{
+    width:0.8em;
+    height:0.8em;
+}
+.infoIcon .MuiSvgIcon-root{
+    width:0.8em;
+    height:0.8em;
+}
+.DoneSharpIcon{
+    font-size: 2.5em !important;
+    color: #008000;
+    position: absolute;
+    top: -5px;
+    left: -10px;
+    font-weight: 400;
+}
+.NotificationsSharpIcon{
+	position: absolute;
+	left: 37px;
+    top: -15px;
+    color: red;
+}
+.daysTextAlign{
+    left:15px;
+}
+.watchLaterIcon{
+    font-size: 4em !important;
+    position: absolute;
+    top: -18px;
+    left: -23px;
+    color: #fff;
+}
+.active{
+    background-image: url(/static/media/spiral.3d562985.gif);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    left: 125px;
+    top: 26px;
+    z-index: 99;
+  }
+  /* .recharts-wrapper:hover ~ .active, .recharts-surface:hover ~ .active,  */
+  .mainCls:hover > .active{
+    display: none !important;
+  }
+  .upload{
+    background-image: url(./images/upload-png.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    left: 230px;
+    top: 26px;
+    z-index: 99;
+    cursor: pointer;
+  }
